@@ -1,0 +1,9 @@
+name: pychubby
+channels:
+  - conda-forge
+dependencies:
+  - python==3.9
+  - dlib
+  - pip
+  - pip:
+    - --editable .
